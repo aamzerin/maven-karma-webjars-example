@@ -82,6 +82,14 @@
 							<npmVersion>6.4.1</npmVersion>
 						</configuration>
 					</execution>
+					
+					<!-- 1. Install gulp -->
+					<execution>
+						<id>npm install gulp -g</id>
+						<goals>
+							<goal>npm</goal>
+						</goals>
+					</execution>
 
 					<!-- 2. Install karma and karma plugins -->
 					<execution>
