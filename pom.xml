@@ -71,26 +71,6 @@
 				<version>1.7.6</version>
 				<executions>
 
-					<!-- 1. Install node and npm locally -->
-					<execution>
-						<id>install node and npm</id>
-						<goals>
-							<goal>install-node-and-npm</goal>
-						</goals>
-						<configuration>
-							<nodeVersion>v10.15.3</nodeVersion>
-							<npmVersion>6.4.1</npmVersion>
-						</configuration>
-					</execution>
-					
-					<!-- 1. Install gulp -->
-					<execution>
-						<id>npm install gulp -g</id>
-						<goals>
-							<goal>npm</goal>
-						</goals>
-					</execution>
-
 					<!-- 2. Install karma and karma plugins -->
 					<execution>
 						<id>npm install</id>
